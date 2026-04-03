@@ -1,60 +1,64 @@
-🚀 Local AI Server Setup v3.0
-Siber Akademi tarafından geliştirilen bu script, Ollama altyapısını kullanarak kendi yerel yapay zeka sunucunuzu dakikalar içinde kurmanızı, yönetmenizi ve dünyaya açmanızı sağlar.
+🚀 BEST-AI: Local AI Server Setup v3.0
+Professional automated solution for deploying, managing, and exposing local LLMs with Ollama. Developed by Toprak Ahmet Aydoğmuş under Siber Akademi.
 
-✨ Öne Çıkan Özellikler
-Otomatik Kurulum: Windows (Winget/Direct) ve Linux (Curl) sistemlerde tek tıkla kurulum.
+🌟 Overview / Genel Bakış
+BEST-AI transforms your local machine into a high-performance AI hub in minutes. It automates the tedious setup of drivers, network tunneling, and web interfaces, providing a secure, local-first alternative to cloud AI providers.
 
-Donanım Optimizasyonu: NVIDIA CUDA ve AMD ROCm otomatik algılama ve GPU hızlandırma yapılandırması.
+Geliştirici Notu: Bu araç, Ollama altyapısını kullanarak kendi yerel yapay zeka sunucunuzu dakikalar içinde kurmanızı, yönetmenizi ve güvenli bir şekilde dış dünyaya açmanızı sağlar.
 
-Gelişmiş Web UI: Dark/Neon temalı, dosya yükleme destekli, sesli komut özellikli modern HTML arayüzü.
+✨ Key Features / Öne Çıkan Özellikler
+🛡️ Core Infrastructure
+Zero-Config Deployment: Automatic installation of Ollama on Windows (via Winget) and Linux (via Curl).
 
-Global Erişim: Cloudflare Tunnel veya ngrok ile yerel sunucunuzu internete güvenli bir şekilde açma.
+Hardware Acceleration: Native detection and configuration for NVIDIA CUDA and AMD ROCm.
 
-Güvenlik: API Key koruması ile yetkisiz erişimi engelleme.
+Resource Analysis: Real-time monitoring of RAM, Disk, and CPU availability.
 
-Yönetim Araçları: Model benchmark testi, otomatik güncelleme kontrolü ve yedekleme sistemi.
+🌐 Connectivity & Security
+Global Access: One-click deployment of Cloudflare Tunnels or ngrok to access your local AI from anywhere in the world.
 
-🛠️ Kurulum
-Gereksinimler
-Windows 10+ veya modern bir Linux dağıtımı.
+Caddy Reverse Proxy: High-performance web server integration for secure API handling.
 
-PowerShell 5.1+ veya PowerShell Core.
+Security First: Mandatory X-API-Key protection for remote access scenarios.
 
-(Önerilen) NVIDIA GPU (CUDA desteği için).
+🎨 Modern Web Experience
+Dark/Neon UI: A futuristic Matrix-inspired web interface with built-in Markdown support and syntax highlighting.
 
-Hızlı Başlat
-Projeyi klonlayın veya .ps1 dosyasını indirin, ardından yönetici yetkileriyle çalıştırın:
+Multimodal Ready: Support for text input, file uploads, and Voice Recognition (STT).
+
+Streaming: Real-time response streaming for a ChatGPT-like experience.
+
+🛠️ Technical Menu / Kullanım Menüsü
+FAST START: Installs/Starts all services using existing configurations.
+
+FULL SETUP: Complete step-by-step hardware analysis, network config, and model selection.
+
+MODEL MANAGEMENT: Specialized downloader for Llama 3.2, Qwen 2.5, DeepSeek R1, Phi-4, and more.
+
+BENCHMARK: Performance testing to measure your system's tokens per second (TPS).
+
+🚀 Quick Start / Hızlı Başlat
+Run the following command in an Administrative PowerShell:
 
 PowerShell
-Set-ExecutionPolicy Bypass -Scope Process -Force
-.\bestaı.ps1
-🖥️ Kullanım Menüsü
-Script çalıştırıldığında sizi interaktif bir ana menü karşılar:
+Set-ExecutionPolicy Bypass -Scope Process -Force; .\bestaı.ps1
+🗂️ Data Architecture / Dosya Yapısı
+The setup centralizes everything in ai_server_data:
 
-HIZLI BAŞLAT: Mevcut yapılandırma ile tüm servisleri ayağa kaldırır.
+/web: Modern HTML5 UI & Caddyfile configuration.
 
-Tam Kurulum: Sıfırdan donanım analizi, ağ ayarları ve model seçimlerini yapar.
+/logs: Comprehensive logs for troubleshooting.
 
-Model Yönetimi: Popüler modelleri (Llama 3.2, Qwen 2.5, DeepSeek R1 vb.) indirir veya siler.
+/backups: Automated configuration backups.
 
-Servis Kontrol: Ollama ve Caddy servislerini bağımsız yönetir.
+config.json: Master server & network state.
 
-Benchmark: Kurulu modellerin sisteminizdeki token/saniye performansını ölçer.
+👤 Developer & Support / Geliştirici ve Destek
+Lead Developer: Toprak Ahmet Aydoğmuş
 
-🗂️ Dosya Yapısı
-Kurulum sonrası tüm veriler Desktop\ai_server_data (veya script dizini) altında toplanır:
+Company: Siber Akademi
 
-/web: HTML arayüzü ve Caddyfile.
+Website: hopp.bio/siberegitim
 
-/logs: Tüm servislerin ve kurulumun detaylı kayıtları.
-
-/backups: Kritik yapılandırma yedekleri.
-
-config.json: Sunucu ve ağ ayarlarınız.
-
-🛡️ Güvenlik Notu
-Eğer sunucunuzu dış dünyaya (Cloudflare/ngrok) açacaksanız, kurulum aşamasında API Key korumasını aktif etmeniz şiddetle önerilir. API anahtarınız apikey.txt dosyasında saklanır.
-
-Geliştirici: Toprak Ahmet Aydoğmuş
-
-Eğitim Platformu: Siber Akademi
+📝 License
+This project is licensed under the MIT License.
