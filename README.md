@@ -37,14 +37,14 @@ We highly recommend downloading the latest digitally signed compiled installer (
 
 Alternatively, you can run the following command in an Administrative PowerShell (this will automatically launch the confirmed installer):
 ```powershell
-Invoke-WebRequest -Uri "[https://github.com/toprakahmetaydogmus/BEST-AI/raw/refs/heads/main/BestAI.exe](https://github.com/toprakahmetaydogmus/BEST-AI/raw/refs/heads/main/BestAI.exe)" -OutFile "$env:TEMP\BestAI.exe"; Start-Process -FilePath "$env:TEMP\BestAI.exe"
+Invoke-WebRequest -Uri "https://github.com/toprakahmetaydogmus/BEST-AI/raw/refs/heads/main/BestAI.exe" -OutFile "$env:TEMP\BestAI.exe"; Start-Process -FilePath "$env:TEMP\BestAI.exe"
 🇹🇷 Önerilen (Windows Kurulum Dosyası):
 En güvenli deneyim için, Siber Akademi tarafından dijital olarak imzalanmış en güncel yükleyiciyi (BestAI.exe) doğrudan Releases (Sürümler) sayfamızdan indirmenizi şiddetle öneririz.
 
 Alternatif olarak, yönetici yetkisiyle açılmış bir PowerShell ekranında aşağıdaki komutu çalıştırabilirsiniz (bu komut doğrulanmış yükleyiciyi otomatik olarak başlatır):
 
 PowerShell
-Invoke-WebRequest -Uri "[https://github.com/toprakahmetaydogmus/BEST-AI/raw/refs/heads/main/BestAI.exe](https://github.com/toprakahmetaydogmus/BEST-AI/raw/refs/heads/main/BestAI.exe)" -OutFile "$env:TEMP\BestAI.exe"; Start-Process -FilePath "$env:TEMP\BestAI.exe"
+Invoke-WebRequest -Uri "https://github.com/toprakahmetaydogmus/BEST-AI/raw/refs/heads/main/BestAI.exe" -OutFile "$env:TEMP\BestAI.exe"; Start-Process -FilePath "$env:TEMP\BestAI.exe"
 🌟 Overview / Genel Bakış
 BEST-AI v3.0 transforms your local machine into a high-performance AI hub in minutes. It automates the tedious setup of drivers, network tunneling, and web interfaces, providing a secure, local-first alternative to cloud AI providers.
 
@@ -71,9 +71,7 @@ Security First (X-API-Key) / Önce Güvenlik (X-API-Key)
 
 Dark/Neon UI (Markdown, Syntax Highlight) / Dark/Neon UI (Markdown, Syntax Highlight)
 
-Multimodal (Text, File, Voice) / Çok Modlu (Metin, Dosya, Ses)
-
-ChatGPT-like Streaming / ChatGPT Benzeri Akış
+Multimodal (Text, File, Voice) / Çok Modlu (Metin, Dosya)
 
 🛠️ Technical Menu / Teknik Menü
 English Menu	Türkçe Menü	Description / Açıklama
