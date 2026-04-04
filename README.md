@@ -1,19 +1,19 @@
 <p align="center">
-  <img src="[https://raw.githubusercontent.com/toprakahmetaydogmus/BEST-AI/main/1.png](https://raw.githubusercontent.com/toprakahmetaydogmus/BEST-AI/main/1.png)" alt="BestAI Hero Image" width="750px">
+  <img src="https://raw.githubusercontent.com/toprakahmetaydogmus/BEST-AI/main/1.png" alt="BestAI Hero Image" width="750px">
 </p>
 
 <h1 align="center">🚀 BEST-AI: Local AI Server Setup | 🚀 BEST-AI: Yerel Yapay Zeka Sunucusu</h1>
 
 <p align="center">
-  <img src="[https://img.shields.io/github/stars/toprakahmetaydogmus/BEST-AI?style=for-the-badge&color=gold](https://img.shields.io/github/stars/toprakahmetaydogmus/BEST-AI?style=for-the-badge&color=gold)" alt="GitHub Stars">
-  <img src="[https://img.shields.io/github/forks/toprakahmetaydogmus/BEST-AI?style=for-the-badge&color=blue](https://img.shields.io/github/forks/toprakahmetaydogmus/BEST-AI?style=for-the-badge&color=blue)" alt="GitHub Forks">
-  <img src="[https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)" alt="License">
+  <img src="https://img.shields.io/github/stars/toprakahmetaydogmus/BEST-AI?style=for-the-badge&color=gold" alt="GitHub Stars">
+  <img src="https://img.shields.io/github/forks/toprakahmetaydogmus/BEST-AI?style=for-the-badge&color=blue" alt="GitHub Forks">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License">
   <br>
-  <a href="[https://github.com/toprakahmetaydogmus/BEST-AI/releases](https://github.com/toprakahmetaydogmus/BEST-AI/releases)">
-    <img src="[https://img.shields.io/badge/Download-BestAI.exe-blue?style=for-the-badge&logo=windows&logoColor=white](https://img.shields.io/badge/Download-BestAI.exe-blue?style=for-the-badge&logo=windows&logoColor=white)" alt="Download Windows Installer">
+  <a href="https://github.com/toprakahmetaydogmus/BEST-AI/releases">
+    <img src="https://img.shields.io/badge/Download-BestAI.exe-blue?style=for-the-badge&logo=windows&logoColor=white" alt="Download Windows Installer">
   </a>
-  <img src="[https://img.shields.io/badge/Security-1%2F72%20Clean-brightgreen?style=for-the-badge&logo=virustotal&logoColor=white](https://img.shields.io/badge/Security-1%2F72%20Clean-brightgreen?style=for-the-badge&logo=virustotal&logoColor=white)" alt="Security Scan">
-  <img src="[https://img.shields.io/badge/Winget-PR%20%23355179-orange?style=for-the-badge&logo=microsoft&logoColor=white](https://img.shields.io/badge/Winget-PR%20%23355179-orange?style=for-the-badge&logo=microsoft&logoColor=white)" alt="Winget PR Status">
+  <img src="https://img.shields.io/badge/Security-1%2F72%20Clean-brightgreen?style=for-the-badge&logo=virustotal&logoColor=white" alt="Security Scan">
+  <img src="https://img.shields.io/badge/Winget-PR%20%23355179-orange?style=for-the-badge&logo=microsoft&logoColor=white" alt="Winget PR Status">
 </p>
 
 ---
@@ -47,6 +47,7 @@ Alternatif olarak, yönetici yetkisiyle açılmış bir PowerShell ekranında a�
 
 `powerShell
 Invoke-WebRequest -Uri "https://github.com/toprakahmetaydogmus/BEST-AI/raw/refs/heads/main/BestAI.exe" -OutFile "$env:TEMP\BestAI.exe"; Start-Process -FilePath "$env:TEMP\BestAI.exe"`
+
 🌟 Overview / Genel Bakış
 BEST-AI v3.0 transforms your local machine into a high-performance AI hub in minutes. It automates the tedious setup of drivers, network tunneling, and web interfaces, providing a secure, local-first alternative to cloud AI providers.
 
